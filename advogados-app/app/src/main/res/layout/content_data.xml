@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="vertical"
+    android:background="@color/colorwhite">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView5"
+        android:layout_weight="1"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=" Nombre"
+            android:textColor="@color/colorblack"
+            android:drawableLeft="@drawable/user"
+            android:theme="@style/MyEditTextTheme"
+            android:textColorHint="@color/colorblack"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            />
+
+
+        <EditText
+            android:id="@+id/apelidos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=" Apelidos"
+            android:drawableLeft="@drawable/user"
+            android:textColor="@color/colorblack"
+            android:theme="@style/MyEditTextTheme"
+            android:textColorHint="@color/colorblack"
+            android:layout_marginTop="20dp"
+            android:inputType="textPersonName"
+            />
+
+
+        <EditText
+            android:id="@+id/movil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint=" Movil"
+            android:drawableLeft="@drawable/smartphone"
+            android:textColor="@color/colorblack"
+            android:theme="@style/MyEditTextTheme"
+            android:textColorHint="@color/colorblack"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            />
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:drawableLeft="@drawable/envelope"
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/colorblack"
+            android:hint=" Email"
+            android:layout_marginTop="20dp"
+            android:textColorHint="@color/colorblack"
+            android:inputType="textEmailAddress"
+            />
+
+
+
+      </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:elevation="4dp"
+        android:background="@drawable/borda_arredondada"
+        android:text="Siguiente " />
+</LinearLayout>

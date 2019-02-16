@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AdvogadosApp</string>
+    <string name="welcome">Bienvenido a la abogacía</string>
+    <string name="message">Usted puede encontrar los mejores abogados aquí</string>
+    <string name="message_button">Contactar con un abogado</string>
+    <string name="message_button2">Yo soy abogado</string>
+    <string name="title_activity_data">DataActivity</string>
+    <string name="title_activity_order_details">OrderDetailsActivity</string>
+
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:orientation="vertical"
+    android:background="@color/colorwhite">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:minHeight="?attr/actionBarSize"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbartitle"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:gravity="center"
+            android:text="Escriba sus datos"
+            android:textSize="20dp"
+            />
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <EditText
+        android:id="@+id/localidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" Localidad"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:textColor="@color/colorblack"
+        android:drawableLeft="@drawable/place"
+        android:theme="@style/MyEditTextTheme"
+        android:textColorHint="@color/colorblack"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+
+
+    <EditText
+        android:id="@+id/provincia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint=" Provincia"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:drawableLeft="@drawable/place"
+        android:textColor="@color/colorblack"
+        android:theme="@style/MyEditTextTheme"
+        android:textColorHint="@color/colorblack"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/apelidos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="
+
+
+
+
+Hásnos un breve resumen
+"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:drawableLeft="@drawable/resume"
+        android:textColor="@color/colorblack"
+        android:theme="@style/MyEditTextTheme"
+        android:textColorHint="@color/colorblack"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        />
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="bottom"
+        android:textAllCaps="false"
+        android:elevation="4dp"
+        android:background="@drawable/borda_arredondada"
+        android:text="Siguiente " />
+
+</LinearLayout>
